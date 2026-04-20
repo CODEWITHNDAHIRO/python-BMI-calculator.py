@@ -8,17 +8,17 @@ print(BMI)
 
 if BMI>0:
     if(BMI<18.5):
-        print(name +", you are underweight. ")
+        print(f"{name}, you are underweight. ")
     elif (BMI<=24.9):
-        print(name +", you are normal weight. ")
+        print(f"{name}, you are normal weight. ")
     elif (BMI<=29.9):
-        print(name +", you are overweight. ")
+        print(f"{name}, you are overweight. ")
     elif (BMI<=34.9):
-        print(name +", you are obese. ")
+        print(f"{name}, you are obese. ")
     elif (BMI<39.9):
-        print(name +", You are severely obese. ")
+        print(f"{name}, You are severely obese. ")
 else:
-    print(name +", You are morbidly obese. " )
+    print(f"{name}  , You are morbidly obese. " )
         
        
 #BMI = (weight in pounds x 703) / (height in inches x height in inches)
